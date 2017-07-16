@@ -1,6 +1,6 @@
 
 
-@import url(https://fonts.googleapis.com/css?family=Mystery+Quest);
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
 
 body {
 		background: #ffffff;
@@ -13,6 +13,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  font-family:'Mystery Quest',cursive;
 }
 
 h1 {
