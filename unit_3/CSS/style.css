@@ -44,6 +44,12 @@ div{
   padding: 2em 3em 3em 3em;
 }
 
+span{
+  font-variant: small-caps;
+    letter-spacing: .25em;
+  padding: 0 .2em;
+}
+
 p2 {
   font-size: 16px;
   color: white;
@@ -76,6 +82,13 @@ h5 {
   font-position: middle;
   margin: 2em;
   text-align: center;
+}
+
+span{
+  font-variant: small-caps;
+  letter-spacing: .25em;
+  padding: 0 .2em;
+  background: rgba(100,150,150,0);
 }
 
 h6 {
