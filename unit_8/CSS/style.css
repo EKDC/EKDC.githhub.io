@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+* { margin:0; padding:0; box-sizing:border-box;}
+
+body {
+		background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+}
+h1 {
+  font-weight: 400;
+  margin: .5em 1.5em 0em;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+}
+
+h2{
+  font-weight: 400;
+  margin: 1.5em;
+  font-family: 'Playfair Display', serif;
+  font-size:16px;
+  text-align: right;
+}
+
+h3{
+  background: white;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 200;
+  font-size: 8px;
+  margin: 0.5em 0em 1em 8em;
+
+}
+
+.hero {
+  background-image: url('../Images/marble.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center center ;
+  text-align: center;
+  padding: 10em 2em 2em 2em; 
+  color: white;
+  font: inherit;
+}
+
+div{
+  background: #d9d9d9;
+  margin: 4em;
+  padding: 2em 3em 3em 3em;
+}
+
+span{
+  font-variant: small-caps;
+    letter-spacing: .25em;
+  padding: 0 .2em;
+}
+
+.contact {
+  font-size: 16px;
+  color: white;
+  line-height: 1.5em; 
+  margin: 2em;
+  font-family: 'palatino', georgia, serif;  
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color:black; 
+}
+
+h4 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  font-position: middle;
+  text-align: center;
+}
+
+h5 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  font-position: middle;
+  margin: 2em;
+  text-align: center;
+  padding: 0;
+
+}
+
+span{
+  font-variant: small-caps;
+  letter-spacing: .25em;
+  padding: 0 .2em;
+  background: rgba(100,150,150,0);
+}
+
+h6 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  font-position: middle;
+  margin: 2em;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+h7 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  font-position: middle;
+  margin: 1em;
+  text-align: center;
+  display: block;
+}
+
+div{
+  background: white;
+  margin: 4em;
+  padding: 2em 3em 3em 3em;
+}
+
+h8 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  font-position: middle;
+  margin: 2em;
+  text-align: center;
+}
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+} 
+
+.name {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+.logo-container {
+     width: 9.7%;
+    display: inline-block;
+    margin: .5em;
+    padding: 1em;
+    padding-bottom: 0;
+    font-size: 
+}
+
+.services {
+  width: 20%;
+  display: inline-block;
+ margin: 0;
+}
+
+.BRANDS {
+width: 9%;
+display: inline-block;
+margin: 0;
+padding: 1em;
+
+}
+
+.WORK {
+  width: 20%;
+  display: inline-block;
+ margin: 0;
+}
+
+#two_column {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%; 
+    background: 
+    font: inherit;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    font: inherit;
+}
+
+
