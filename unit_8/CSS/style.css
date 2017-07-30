@@ -36,7 +36,7 @@ h3{
 
 .hero {
   background-image: url('../Images/marble.jpg');
-  height: 500px;
+  height: 50%;
   background-size: cover;
   background-position: center center ;
   text-align: center;
@@ -45,7 +45,7 @@ h3{
   font: inherit;
 }
 
-div{
+div {
   background: #d9d9d9;
   margin: 4em;
   padding: 2em 3em 3em 3em;
@@ -125,6 +125,8 @@ div{
   background: white;
   margin: 4em;
   padding: 2em 3em 3em 3em;
+  text-align: center;
+
 }
 
 h8 {
@@ -151,6 +153,21 @@ nav {
   display: inline-block;
   float: right;
 }
+
+
+
+.manual ul li {
+		display:inline;
+	   float: left;
+}
+
+.manual a {
+	   display: block;
+	   padding: 8px;
+	}
+
+
+
 
 .logo-container {
      width: 9.7%;
@@ -213,6 +230,36 @@ padding: 1em;
     clear: both;
     height: 0;
     font: inherit;
+  }
+
+.textBlock
+  {
+	background-color: white;
+    float: right;
+    margin-right: -100px;
+    width: 50%;
+    margin-top: -140px;
+  }
+
+
+@media screen and (max-width:860px){
+
+  .textBlock{
+    float: none;
+    width:100%;
+    margin: 0;
+  }
+
+
 }
 
 
+@media screen and (max-width:860px){
+
+   .WORK {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+  }
+
+}
