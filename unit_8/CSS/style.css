@@ -16,6 +16,7 @@ h1 {
   font-size:40px;
 }
 
+
 h2{
   font-weight: 400;
   margin: 1.5em;
@@ -23,6 +24,7 @@ h2{
   font-size:16px;
   text-align: right;
 }
+
 
 h3{
   background: white;
@@ -123,9 +125,10 @@ h7 {
 
 div{
   background: white;
-  margin: 4em;
-  padding: 2em 3em 3em 3em;
+
+  padding: 0em 0em 3em 3em;
   text-align: center;
+
 
 }
 
@@ -158,15 +161,15 @@ nav {
 
 .manual ul li {
 		display:inline;
-	   float: left;
+	   float: right;
+	   margin: 0;
+	   border: 0;
 }
 
 .manual a {
 	   display: block;
 	   padding: 8px;
 	}
-
-
 
 
 .logo-container {
@@ -238,7 +241,8 @@ padding: 1em;
     float: right;
     margin-right: -100px;
     width: 50%;
-    margin-top: -140px;
+    margin-top: -78px;
+    padding-top: 1em;
   }
 
 
@@ -262,4 +266,17 @@ padding: 1em;
     margin: 0;
   }
 
+   .services {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+  }
+
+ .BRANDS {
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+  }
+
 }
+
